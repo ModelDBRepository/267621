@@ -1,0 +1,8 @@
+This model database is a part of the models developed by Adam Taylor in A. L. Taylor, J. M. Goaillard, E. Marder, How multiple conductances determine electrophysiological properties in a multicompartment model. J. Neurosci. 29, 5573–5586 (2009).
+the following data and code were used for Zang Y & Marder E, "Neuronal morphology enhances robustness to perturbations of channel densities" PNAS 2023.
+
+The parameters of models used in Figure 1 are provided in ./1292/lp_model_base_1292.dat. In per_protocol, the variation range is 0.1, which can be varied to other values by varying var1 & var2.
+The parameters of models used in Figure 6B are in the folder./131/lp_model_intersect_ra_02_500.dat.
+in pert_protocol_Ra_v01.hoc, axonal Ra is 2 ohm cm and variation range is 0.1. you can change axonal Ra to 100 and 500 by changing Ra in the axon section.
+
+if you use this model database, please cite both papers. If you have questions regarding these models, please contact ylzang@brandeis.edu
